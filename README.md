@@ -13,4 +13,5 @@
 - Estilizando Textos
 - Estilizando Listas
 - Propriedades de Dimensões e Alinhamentos
+- Posicionando Elemento com Flexbox em CSS (19/05/22)
 

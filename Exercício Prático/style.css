@@ -1,5 +1,5 @@
 body {
-    background: #f7f7f7);
+    background: #f7f7f7;
     font-family: Verdana;
     max-width: 900px;
     margin: auto;
@@ -38,9 +38,19 @@ a {
     text-align: justify;
 }
 .post_image {
-    margin-bottom: 15px;
-    border-radius: 10px;
-    width: 100%; 
+    perspective: 900px;
+    width: 100%;
+    background: center no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(255,255,255, .25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+}
+.post_image:hover {
+    transform: translate(10px) rotateX(10deg) rotateY(5deg);
 }
 .contacts_list {
     list-style-type: none;
